@@ -1,7 +1,23 @@
-env/**/*.env
-!env/**/example*
+# Nuxt dev/build outputs
+.output
+.nuxt
+.nitro
+.cache
+dist
 
-static/*
-nuxt/src/assets/fonts/optimized/*
+# Node dependencies
+node_modules
 
-!.gitkeep
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
